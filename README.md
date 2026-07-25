@@ -72,6 +72,7 @@ Navigate your browser to `http://localhost:5173` to access the navigation contro
 3. **Stream Protocol**: Annotated frames are broadcasted over `multipart/x-mixed-replace` endpoints. Concurrently, mathematical data (ETA, Confidence arrays) are dispatched over `/ws/telemetry`.
 4. **Reactive Rendering**: The React frontend maps incoming WebSocket integers to dynamic components, syncing perfectly with the inline video player.
 
+
 ---
 
 ## 🤝 Contributing
